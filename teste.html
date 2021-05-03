@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Testando o JS </title>
+		<style>
+			body{
+				background-color: #333;
+				color: #fff;
+			}
+			/*ul{
+				list-style: none;
+			}
+			li{
+				display: inline;
+				margin-left: 20px;
+			}*/
+			
+			/* PARTE DO FORMULÁRIO DE ID CONTATO */
+			/* button{
+				margin-bottom: 10px;
+			}
+			/* #contato{
+				margin: 0 auto;
+				background: #bbb;
+				padding: 30px;
+				text-align: center;
+				width: 500px;
+				border-radius: 10px;
+			}
+			#contato label{
+				display: block;
+				color: #000;
+				margin-bottom: 6px;
+				font-size: 14pt;
+				font-family: Arial, monospace;
+			}
+			#contato input, textarea{
+				font-size: 12pt;
+				border-radius: 4px;
+				padding: 8px;
+				margin-bottom: 20px;
+				width: 250px;
+				border: 2px solid #000;
+			}
+			#contato select{
+				display: block;
+				text-align: center;
+				padding: 5px;
+				margin: 0 auto;
+			}
+			.invalido{
+				border: 20px solid red;
+			} */
+
+			/* PARTE DA SECTION DO BUTTON-CREATOR */
+			.button-creator{
+				display: grid;
+				grid-gap: 30px;
+				grid-template-columns: 1fr 1fr;
+				padding: 20px;
+			}
+			form input, select{
+				display: block;
+				margin-bottom: 12px;
+				border-radius: 5px;
+				padding: 5px;
+				border: none;
+				font-size: 12pt;
+				font-family: Arial, monospace;
+			}
+			form input{
+				width: 250px;
+				padding: 5px;
+				margin-top: 5px;
+			}
+			label{
+				font-size: 12pt;
+				font-family: Arial, monospace;
+			}
+			#controls{
+				background: #111;
+				border-radius: 10px;
+				padding: 15px;
+			}
+			button{
+				padding: 8px 20px;
+				font-size: 12pt;
+				font-weight: bold;
+				color: #000;
+				background: #fff;
+				border: none;
+			}
+		</style>
+	</head>
+	
+<body>
+
+	<!--<section class="curso">
+		<h1> Web Design Completo </h1>
+		<p> 
+			Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.
+		</p>
+		<span class="aulas"> 80 </span>
+		<span class="horas"> 22 </span>
+	</section>
+	
+	<section class="curso">
+		<h1> WordPress Como CMS </h1>
+		<p> 
+			Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.
+		</p>
+		<span class="aulas"> 46 </span>
+		<span class="horas"> 9 </span>
+	</section>
+	
+	<section class="curso">
+		<h1> UI Design Avançado </h1>
+		<p> 
+			Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.
+		</p>
+		<span class="aulas"> 55 </span>
+		<span class="horas"> 15 </span>
+	</section>-->
+	
+	<!--<ul>
+		<li> Item 1 </li>
+		<li> Item 2 </li>
+		<li> Item 3 </li>
+		<li> Item 4 </li>
+	</ul>-->
+
+	<!-- <section> -->
+		<!-- <p> -->
+			<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium laboriosam alias praesentium, modi ducimus et dolorem tempore non dolore minus quasi facere eum mollitia voluptatibus similique consectetur accusantium eveniet? -->
+		<!-- </p> -->
+		<!-- <p> -->
+			<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium laboriosam alias praesentium, modi ducimus et dolorem tempore non dolore minus quasi facere eum mollitia voluptatibus similique consectetur accusantium eveniet? -->
+		<!-- </p> -->
+		<!-- <p> -->
+			<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium laboriosam alias praesentium, modi ducimus et dolorem tempore non dolore minus quasi facere eum mollitia voluptatibus similique consectetur accusantium eveniet? -->
+		<!-- </p> -->
+	<!-- </section> -->
+	
+	<!-- <h1> Título Qualquer </h1>
+
+	<button type="submit" data-init> Iniciar </button>
+	<button type="submit" data-pause> Pausar </button>
+	<button type="submit" data-reset> Resetar </button>
+
+	<form action="" name="contato" id="contato">
+		<label for="nome"> Nome </label>
+		<input type="text" name="nome" id="nome" required>
+		<span class="erro"></span>
+
+		<label for="email"> E-mail </label>
+		<input type="email" name="email" id="email" required>
+		<span class="erro"></span>
+
+		<label for="senha"> Senha </label>
+		<input type="password" name="senha" id="senha">
+
+		<label for="mensagem"> Mensagem </label>
+		<textarea name="mensagem" id="mensagem"></textarea>
+
+		<select name="cores" id="cores">
+			<option value="blue"> Azul </option>
+			<option value="red"> Vermelho </option>
+		</select>
+
+		<input type="color">
+
+		<input type="checkbox" name="identidade" id="identidade">
+	</form>
+
+	<span class="texto"> ... </span> -->
+
+	<section class="button-creator">
+		<form id="controls">
+			<label for="texto"> Texto </label>
+			<input type="text" name="texto" id="texto">
+
+			<label for="color"> Cor </label>
+			<input type="color" name="color" id="color">
+
+			<label for="backgroundColor"> Cor de Fundo </label>
+			<input type="color" name="backgroundColor" id="backgroundColor">
+
+			<label for="height"> Altura - Range </label>
+			<input type="range" name="height" id="height" min="0" max="200">
+
+			<label for="width"> Largura - Range </label>
+			<input type="range" name="width" id="width" min="0" max="600">
+
+			<label for="border"> Border </label>
+			<input type="texto" name="border" id="border">
+
+			<label for="borderRadius"> Raio da Borda </label>
+			<input type="range" name="borderRadius" id="borderRadius" min="0" max="20">
+
+			<select name="fontFamily" id="fontFamily">
+				<option value="Arial"> Arial </option>
+				<option value="Georgia"> Georgia </option>
+				<option value="Monospace"> Monospace </option>
+			</select>
+
+			<label for="fontSize"> Tamanho da Fonte </label>
+			<input type="number" name="fontSize" id="fontSize">
+		</form>
+
+		<section class="resultado">
+			<button class="btn"> Clique </button>
+
+			<pre><code class="css"> </code></pre>
+		</section>
+	</section>
+
+	<script src="js/testeJs.js"></script>
+	<script src="js/assincronoJS.js"></script>
+</body>
+</html>

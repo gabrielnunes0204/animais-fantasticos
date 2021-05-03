@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Animais Fantásticos - Origamid </title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/estilo.css">
+        <script>
+            document.documentElement.className += ' js'; //Criando uma classe para mostrar o conteúdo numa page com o JS desabilitado
+        </script>
+    </head>
+
+<body>
+
+    <div class="grid-container">
+        <nav class="menu js-menu">
+            <button data-menu="button" aria-expanded="false" aria-controls="menu"> Menu </button>
+            <ul data-menu="list" id="menu">
+                <li><a href="#animais"> ANIMAIS </a></li>
+                <li data-dropdown>
+					<a href="#sobre" id="sobre"> SOBRE </a>
+					<ul class="dropdown-menu">
+						<li><a href=""> A Empresa </a></li>
+						<li><a href=""> A Equipe </a></li>
+						<li><a href=""> Sócios </a></li>
+						<li><a href=""> Investidores </a></li>
+						
+					</ul>
+				</li>
+                <li><a href="#faq"> FAQ </a></li>
+                <li><a href="#contato"> CONTATO </a></li>
+                <!-- <li><a href="https://www.origamid.com/"> DEV &rarr; </a></li> -->
+                <li><a data-modal="abrir" href="#modal"> LOGIN &rarr; </a></li>
+            </ul>
+        </nav>
+
+        <section class="grid-section animais js-scroll" id="animais">
+            <h1 class="titulo"> Animais Fantásticos </h1>
+            <ul class="animais-lista js-tabmenu">
+                <li>
+                    <img src="images/imagem1.jpg" alt="Imagem 1">
+                </li>
+                <li>
+                    <img src="images/imagem2.jpg" alt="Imagem 2">
+                </li>
+                <li>
+                    <img src="images/imagem3.jpg" alt="Imagem 3">
+                </li>
+                <li>
+                    <img src="images/imagem4.jpg" alt="Imagem 4">
+                </li>
+                <li>
+                    <img src="images/imagem5.jpg" alt="Imagem 5">
+                </li>
+                <li>
+                    <img src="images/imagem6.jpg" alt="Imagem 6">
+                </li>
+            </ul>
+
+            <div class="animais-descricao js-tabcontent">
+                <section>
+                    <h2> Raposa </h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                </section>
+
+                <section>
+                    <h2> Esquilo </h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                </section>
+
+                <section>
+                    <h2> Urso </h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                </section>
+
+                <section>
+                    <h2> Lobo </h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                </section>
+
+                <section>
+                    <h2> Macaco </h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                </section>
+
+                <section>
+                    <h2> Leão </h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae nesciunt animi corrupti iure neque adipisci temporibus possimus maiores impedit, et itaque dolorum aut voluptas. Deleniti officiis consequatur laboriosam eveniet!
+                    </p>
+                </section>
+            </div>
+        </section>
+
+        <section class="grid-section numeros" data-anime="scroll">
+            <h1 class="titulo"> Números </h1>
+            <div class="numeros-grid">
+                <div class="numero-animal">
+                    <h3> Lobos </h3>
+                    <span data-numero1> 0 </span>
+                </div>
+                <div class="numero-animal">
+                    <h3> Raposas </h3>
+                    <span data-numero2> 0 </span>
+                </div>
+                <div class="numero-animal">
+                    <h3> Esquilos </h3>
+                    <span data-numero3> 0 </span>
+                </div>
+                <div class="numero-animal">
+                    <h3> Urso </h3>
+                    <span data-numero4> 0 </span>
+                </div>
+            </div>
+        </section>
+        
+        <section class="grid-section faq js-scroll" id="faq">
+            <h1 class="titulo"> FAQ </h1>
+            <dl class="faq-lista js-accordion">
+                <dt> Qual a idade dos animais? </dt>
+                <dd> 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, vitae. Ducimus labore exercitationem tempore incidunt! </dd>
+
+                <dt> Eles são Fantásticos? </dt>
+                <dd> 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, vitae. Ducimus labore exercitationem tempore incidunt! </dd>
+
+                <dt> Qual a diferença? </dt>
+                <dd> 3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, vitae. Ducimus labore exercitationem tempore incidunt! </dd>
+
+                <dt> Como proteger? </dt>
+                <dd> 4 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, vitae. Ducimus labore exercitationem tempore incidunt! </dd>
+            </dl>
+        </section> 
+
+        <section class="grid-section contato js-scroll" id="contato">
+            <h1 class="titulo"> Contato </h1>
+            <div class="mapa" data-tooltip aria-label="Estamos localizados ao lado do estacionamento">
+                <img src="images/mapa.png" alt="Mapa">
+            </div>
+                <ul class="dados">
+                    <li> gabnunesads@gmail.com </li>
+                    <li> +55 (11) 9 9988-7766 </li>
+                    <li> Rua Ali do Lado, n° 22 </li>
+                    <li> São Paulo - SP </li>
+                    <li data-semana="1,2,3,4,5" data-horario="8,18"> Seg á Sex das 08 ás 18 hrs </li>
+                </ul>
+        </section>
+
+        <footer class="copy">
+            <p> Todos os direitos reservados </p>
+        </footer>
+    </div>
+
+    <section class="modal-container" data-modal="container" id="modal">
+        <div class="modal">
+            <h1> Faça o Login </h1>
+            <button class="fechar" data-modal="fechar"> X </button>
+
+            <form action="">
+                <label for="email"> E-mail </label>
+                <input type="text" for="email" id="email">
+
+                <label for="senha"> Senha </label>
+                <input type="password" for="senha" id="senha">
+
+                <button type="submit"> Entrar </button> 
+            </form>
+        </div>
+    </section>
+ 
+    <script src="js/animacoes.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
